@@ -11,13 +11,13 @@ var mailList = ['giorgio87@mail.com', 'luca56@mail.com', 'anna78@mail.com', 'enr
 //
 // for (var i = 0; i < mailList.length; i++) {
 //   if (userMail == mailList[i]) {
-//     document.getElementById('login').innerHTML = 'Login Effettuato con successo.';
+//     document.getElementById('login').innerHTML = 'La tua mail è: ' + userMail + '. Login Effettuato con successo.';
 //   }
 // }
 
 // Metodo 2
 
-document.getElementById('login').innerHTML = 'Login Effettuato con successo.';
+document.getElementById('login').innerHTML = 'La tua mail è: ' + userMail + '. Login Effettuato con successo.';
 
 if (mailList.indexOf(userMail) === -1) {
   document.getElementById('login').innerHTML = 'Credenziali errate.';
