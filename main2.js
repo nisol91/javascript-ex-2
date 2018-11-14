@@ -1,3 +1,4 @@
+// gioco dei dadi, chi fa di piu vince
 var firstPl =  Math.floor(Math.random() * 6) + 1;
 var secondPl = Math.floor(Math.random() * 6) + 1;
 
